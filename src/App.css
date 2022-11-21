@@ -1,0 +1,59 @@
+body {
+  font-family: monospace;
+}
+
+.houseGrid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.card {
+  display: grid;
+  place-items: start;
+}
+img {
+  object-fit: contain;
+  height: 200px;
+  width: auto;
+}
+.card__title,
+.card__img {
+  grid-area: 1/1;
+}
+.card__title {
+  z-index: 1;
+  color: #fff;
+  padding: 0.6em 1.2em;
+  background-color: black;
+  margin: 0;
+}
+
+/* === */
+
+.teamItem {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  width: 300px;
+  height: auto;
+}
+
+.teamItem img {
+  width: 300px;
+  height: auto;
+  margin-top: 50px;
+}
+.team__title,
+.team__occ {
+  margin: 0.7em 0;
+}
+
+.team__ocupation {
+  color: darkgray;
+}
+
+.team {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
