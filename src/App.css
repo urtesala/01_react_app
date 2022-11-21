@@ -57,3 +57,27 @@ img {
   flex-wrap: wrap;
   gap: 20px;
 }
+
+/* ==== */
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form__title {
+  margin-bottom: 1;
+}
+
+.inputs {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.form__btn {
+  width: max-content;
+  height: 30px;
+  border: none;
+  background-color: gray;
+}

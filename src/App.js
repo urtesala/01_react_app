@@ -100,6 +100,25 @@ function TeamGrid() {
   );
 }
 
+function Form() {
+  return (
+    <div className='form'>
+      <h2 className='form__title'>Contact</h2>
+      <p className='form__desc'>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat nostrum
+        quisquam repellat dolor. Aspernatur, impedit.
+      </p>
+      <form className='inputs'>
+        <input type='text' placeholder='name' />
+        <input type='text' placeholder='email' />
+        <input type='text' placeholder='subject' />
+        <input type='text' placeholder='comment' />
+        <button className='form__btn'>SEND MESSAGE</button>
+      </form>
+    </div>
+  );
+}
+
 function App() {
   const name = 'James';
   return (
@@ -110,6 +129,7 @@ function App() {
       <h2>Houses</h2>
       <HousesGrid />
       <TeamGrid />
+      <Form />
     </div>
   );
 }
